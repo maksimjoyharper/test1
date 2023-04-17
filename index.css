@@ -1,0 +1,31 @@
+.connect {
+  text-align: right;
+}
+.instruction {
+  text-align: center;
+}
+.info {
+  text-align: left;
+}
+.transform {
+  text-align: justify;
+}
+body {
+  background-color: rgb(118, 141, 132);
+}
+.flicker {
+  text-align: center;
+  color: #1b05a8;
+}
+.fat {
+  text-align: center;
+}
+.charact {
+  text-align: right;
+}
+.taps {
+  color: rgb(29, 2, 146);
+}
+.topick {
+  text-align: center;
+}
