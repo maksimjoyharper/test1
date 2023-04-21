@@ -1,0 +1,18 @@
+table {
+  width: 700px;
+  height: 400px;
+  border-collapse: collapse;
+}
+table,
+tr,
+td {
+  border: 1px black solid;
+  text-align: left;
+  vertical-align: text-top;
+}
+.privet {
+  vertical-align: text-top;
+}
+th {
+  padding-bottom: 20px;
+}
