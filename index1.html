@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!--
     <img title="photo of a leopard" src="/images/3. Леопард.jpg" alt="photo of a leopard"
         style="width: 500px; height: 400px; ">
     <br>
@@ -47,36 +48,36 @@
                     <span>Текст1</span>
                 </td>
                 <!--<td>333</td>-->
-            </tr>
-            <tr>
-                <!--<td>444</td>-->
-                <td colspan="2">
-                    <span>Текст2</span>
-                </td>
-                <!-- <td>666</td>-->
-            </tr>
-            <tr>
-                <!--<td>777</td>-->
-                <td rowspan="3" style="width: 25%; ">
-                    <span>привет</span>
-                </td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <!--<td>1010</td>-->
-                <!--<td>2020</td>-->
-                <td>
-                    <span>2</span>
-                </td>
-            </tr>
-            <tr>
-                <!--<td>4040</td>
+    </tr>
+    <tr>
+        <!--<td>444</td>-->
+        <td colspan="2">
+            <span>Текст2</span>
+        </td>
+        <!-- <td>666</td>-->
+    </tr>
+    <tr>
+        <!--<td>777</td>-->
+        <td rowspan="3" style="width: 25%; ">
+            <span>привет</span>
+        </td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <!--<td>1010</td>-->
+        <!--<td>2020</td>-->
+        <td>
+            <span>2</span>
+        </td>
+    </tr>
+    <tr>
+        <!--<td>4040</td>
                 <td>5050</td>-->
-                <td>
-                    <span>3</span>
-                </td>
-            </tr>
-        </tbody>
+        <td>
+            <span>3</span>
+        </td>
+    </tr>
+    </tbody>
     </table>
 </body>
 <br>
@@ -106,5 +107,68 @@
         </tr>
     </tbody>
 </table>
+<br>
+<hr>
+
+<main>
+    <form class="registration" id="create-user" action="/http://127.0.0.1/" method="post">
+        <h1>HELLOW, GUYS!</h1>
+        <fieldset class="profile">
+            <legend>Profile</legend>
+            <label class="first_name">
+                <span>First Name</span>
+                <input type="text" name="first_name" placeholder="Enter your first name" required minlength="2" />
+            </label> <br>
+            <label class="Last_name">
+                <span>Last Name</span>
+                <input type="text" name="Last_name" placeholder="Enter your last name" required maxlength="20" />
+            </label>
+
+        </fieldset>
+        <fieldset class="credentials">
+            <legend>Credentials</legend>
+            <label class="email">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="Enter your email" required> <br>
+
+            </label>
+            <label class="Telephone">
+                <span>Telephone</span>
+                <input type="tel" required />
+            </label> <br>
+            <label class="Password">
+                <span>Password</span>
+                <input type="password" name="password" placeholder="Enter your password" required />
+            </label> <br>
+        </fieldset>
+        <fieldset class="general_info">
+            <label>
+                Gender
+                M <input required type="radio" name="gender" id="" />
+                W <input required type="radio" name="gender" id="" />
+            </label> <br>
+            <legend>General info</legend>
+            <label>
+                <span>Countries</span>
+            </label>
+            <select required>
+                <option>Not chosen</option>
+                <option value="InnoDo">InnoDom</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Spain">Spain</option>
+                <option value="USA">USA</option>
+            </select>
+            <br>
+
+            <label>
+                <input type="checkbox" required>
+                I agree with the conditions
+            </label>
+        </fieldset> <br>
+        <button type="submit">Submit</button>
+        <input type="reset" value="Clear">
+    </form>
+</main>
+<script src="./index1.html"></script>
 
 </html>

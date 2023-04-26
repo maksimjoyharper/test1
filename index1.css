@@ -23,3 +23,37 @@ th {
 .inn {
   vertical-align: middle;
 }
+
+.credentials,
+.profile,
+.email,
+.first_name,
+.last_name,
+.telephone,
+.password,
+.general_info {
+  position: relative;
+  border: none;
+}
+
+form {
+  display: grid;
+  justify-content: space-around;
+  justify-items: stretch;
+  align-content: space-around;
+  background-color: aquamarine;
+}
+label {
+  padding-bottom: 8px;
+}
+fieldset {
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+legend {
+  font-size: larger;
+}
+fieldset > label > input {
+  background-color: rgb(228, 231, 206);
+  border: none;
+}
