@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <!--
+
     <img title="photo of a leopard" src="/images/3. Леопард.jpg" alt="photo of a leopard"
         style="width: 500px; height: 400px; ">
     <br>
@@ -48,36 +48,36 @@
                     <span>Текст1</span>
                 </td>
                 <!--<td>333</td>-->
-    </tr>
-    <tr>
-        <!--<td>444</td>-->
-        <td colspan="2">
-            <span>Текст2</span>
-        </td>
-        <!-- <td>666</td>-->
-    </tr>
-    <tr>
-        <!--<td>777</td>-->
-        <td rowspan="3" style="width: 25%; ">
-            <span>привет</span>
-        </td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <!--<td>1010</td>-->
-        <!--<td>2020</td>-->
-        <td>
-            <span>2</span>
-        </td>
-    </tr>
-    <tr>
-        <!--<td>4040</td>
+            </tr>
+            <tr>
+                <!--<td>444</td>-->
+                <td colspan="2">
+                    <span>Текст2</span>
+                </td>
+                <!-- <td>666</td>-->
+            </tr>
+            <tr>
+                <!--<td>777</td>-->
+                <td rowspan="3" style="width: 25%; ">
+                    <span>привет</span>
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <!--<td>1010</td>-->
+                <!--<td>2020</td>-->
+                <td>
+                    <span>2</span>
+                </td>
+            </tr>
+            <tr>
+                <!--<td>4040</td>
                 <td>5050</td>-->
-        <td>
-            <span>3</span>
-        </td>
-    </tr>
-    </tbody>
+                <td>
+                    <span>3</span>
+                </td>
+            </tr>
+        </tbody>
     </table>
 </body>
 <br>
@@ -167,6 +167,31 @@
         </fieldset> <br>
         <button type="submit">Submit</button>
         <input type="reset" value="Clear">
+    </form>
+    <form action="/http://127.0.0.1/" method="post">
+        <label>
+            <span>Ползунок</span>
+            <input type="range" min="0" max="100">
+        </label> <br>
+        <label>
+            <span>Страна</span>
+        </label>
+        <select required>
+            <option>Не выбрано</option>
+            <option value="InnoDo">InnoDom</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Spain">Spain</option>
+            <option value="USA">USA</option>
+        </select>
+        <br>
+        <label>
+            <input type="checkbox" required>
+            Я согласен с условиями
+        </label>
+        </fieldset> <br>
+        <button type="submit">Зарегистрироваться</button>
+        <input type="reset" value="Сбросить">
+        <input type="file" name="" id="">
     </form>
 </main>
 <script src="./index1.html"></script>

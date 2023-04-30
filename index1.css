@@ -36,7 +36,7 @@ th {
   border: none;
 }
 
-form {
+/*form {
   display: grid;
   justify-content: space-around;
   justify-items: stretch;
@@ -56,4 +56,4 @@ legend {
 fieldset > label > input {
   background-color: rgb(228, 231, 206);
   border: none;
-}
+}*/
