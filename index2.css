@@ -1,0 +1,25 @@
+.navigation {
+  border: 0;
+  height: 50px;
+  background-size: cover;
+  background-color: rgb(3, 145, 98);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list {
+  list-style-image: url(./images/Call.svg);
+}
+.html {
+  color: blue;
+  text-shadow: 3px 2px pink;
+}
+.css {
+  color: white;
+  background-color: blue;
+}
+.js {
+  text-decoration-line: line-through;
+  text-decoration-color: pink;
+}

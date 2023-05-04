@@ -1,3 +1,13 @@
+.navigation {
+  border: 0;
+  height: 50px;
+  background-size: cover;
+  background-color: rgb(3, 145, 98);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .connect {
   text-align: right;
 }
