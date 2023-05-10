@@ -8,12 +8,10 @@
   align-items: center;
 }
 
-body {
-}
-
 .table {
-  max-width: 70%;
+  width: 1000px;
   padding-top: 50px;
+  margin: 0 150px;
   display: grid;
   grid-template-areas:
     "header header header"
@@ -61,8 +59,9 @@ body {
 }
 
 .header1 {
-  max-width: 70%;
+  width: 1000px;
   height: 60px;
+  margin: 0 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -78,8 +77,9 @@ body {
 }
 
 .main1 {
-  width: 70%;
+  width: 1000px;
   height: 500px;
+  margin: 0 150px;
   display: flex;
   flex-direction: row;
   gap: 35px;
@@ -98,8 +98,9 @@ body {
 }
 
 .footer1 {
-  width: 70%;
+  width: 1000px;
   height: 60px;
+  margin: 0 150px;
   background-color: rgb(66, 66, 255);
 }
 
@@ -112,6 +113,7 @@ body {
 .additional-task {
   width: 250px;
   height: 80px;
+  margin: 0 150px;
   background-color: var(--bg-color);
 }
 
