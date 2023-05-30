@@ -5,12 +5,16 @@ html {
   margin: auto;
 }
 
+header {
+  position: sticky;
+  top: 0px;
+  background: #fff;
+}
+
 .header {
   width: 100vw;
   max-width: 1300px;
   height: 100px;
-  position: sticky;
-  top: 0px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
