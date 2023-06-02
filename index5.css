@@ -1,5 +1,17 @@
 html {
-  background: #f3cdf9;
+  background: linear-gradient(to top, #dc6e6e, #29046f);
+}
+
+@supports (background: linear-gradient(to top, #dc6e6e, #29046f)) {
+  html {
+    background: linear-gradient (to top, #dc6e6e, #29046f);
+  }
+}
+
+@supports not (background: linear-gradient(to top, #dc6e6e, #29046f)) {
+  html {
+    background: #000;
+  }
 }
 
 .navigation {
